@@ -1,4 +1,4 @@
-package pro.developer.java.core;
+package dev.pro.transport;
 
 public class MainApp {
     static final Logger logger = new ConsoleLoger();
@@ -7,6 +7,7 @@ public class MainApp {
         Person person = new Person("Veronika", logger);
 
         Car car = new Car(logger);
+        car.fillFuel(1.0f);
         person.Ride(car);
     }
 
@@ -24,4 +25,3 @@ class ConsoleLoger implements Logger {
         System.out.println(String.format(messageFormat, args));
     }
 }
-

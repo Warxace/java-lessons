@@ -1,4 +1,4 @@
-package pro.developer.java.core;
+package dev.pro.transport;
 
 public class Bike extends Vehicle {
     public Bike(Logger logger) {

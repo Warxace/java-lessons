@@ -1,4 +1,4 @@
-package pro.developer.java.core;
+package dev.pro.transport;
 
 public abstract class TransportBase implements Transport {
     private boolean isStarted;
